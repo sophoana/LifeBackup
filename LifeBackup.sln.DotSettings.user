@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eeeec344_002Da4cf_002D424d_002Daf29_002D4257cd0936be/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="When_AddFile_return_OK_status #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2D0C252D-CF65-4FB0-9D0F-7A06FA4C0A9B::.NETCoreApp,Version=v3.1::LifeBackup.Integration.Tests.Scenarios.FilesControllerTests.When_AddFile_return_OK_status&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2D0C252D-CF65-4FB0-9D0F-7A06FA4C0A9B::.NETCoreApp,Version=v3.1::LifeBackup.Integration.Tests.Scenarios.FilesControllerTests.When_list_bucket_return_OK_status&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f3dae0c2_002Dd011_002D401e_002D98c2_002Df16d7cbae2dc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_AddFile_return_OK_status" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2D0C252D-CF65-4FB0-9D0F-7A06FA4C0A9B::.NETCoreApp,Version=v3.1::LifeBackup.Integration.Tests.Scenarios.FilesControllerTests.When_AddFile_return_OK_status&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

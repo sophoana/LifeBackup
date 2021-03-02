@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sophoap/dev/LifeBackup/LifeBackup.Integration.Tests/LifeBackup.Integration.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/LifeBackup.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/LifeBackup.Api.csproj",
+        "projectName": "LifeBackup.Api",
+        "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/LifeBackup.Api.csproj",
+        "packagesPath": "/Users/sophoap/.nuget/packages/",
+        "outputPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophoap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj": {
+                "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj"
+              },
+              "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj": {
+                "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.101, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.5.8.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj",
+        "projectName": "LifeBackup.Core",
+        "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj",
+        "packagesPath": "/Users/sophoap/.nuget/packages/",
+        "outputPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophoap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj",
+        "projectName": "LifeBackup.Infrastructure",
+        "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj",
+        "packagesPath": "/Users/sophoap/.nuget/packages/",
+        "outputPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophoap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj": {
+                "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Core/LifeBackup.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.5.8.8, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sophoap/dev/LifeBackup/LifeBackup.Integration.Tests/LifeBackup.Integration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophoap/dev/LifeBackup/LifeBackup.Integration.Tests/LifeBackup.Integration.Tests.csproj",
+        "projectName": "LifeBackup.Integration.Tests",
+        "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Integration.Tests/LifeBackup.Integration.Tests.csproj",
+        "packagesPath": "/Users/sophoap/.nuget/packages/",
+        "outputPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Integration.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sophoap/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/LifeBackup.Api.csproj": {
+                "projectPath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Api/LifeBackup.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

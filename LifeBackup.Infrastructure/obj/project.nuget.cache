@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WxwmB39Lw42VX+9lJkdZxXqbXfEGUGTAP+WcRfmjfIS6hLFId9iegLxJpsbF/J0GOGxGDMp9sdnpiC/zFR4I/Q==",
+  "success": true,
+  "projectFilePath": "/Users/sophoap/dev/LifeBackup/LifeBackup.Infrastructure/LifeBackup.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/sophoap/.nuget/packages/awssdk.core/3.5.3.2/awssdk.core.3.5.3.2.nupkg.sha512",
+    "/Users/sophoap/.nuget/packages/awssdk.s3/3.5.8.8/awssdk.s3.3.5.8.8.nupkg.sha512",
+    "/Users/sophoap/.nuget/packages/microsoft.aspnetcore.http.features/5.0.3/microsoft.aspnetcore.http.features.5.0.3.nupkg.sha512",
+    "/Users/sophoap/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/sophoap/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/sophoap/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
